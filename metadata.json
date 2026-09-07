@@ -1,0 +1,6 @@
+{
+  "name": "Mesina Farms",
+  "description": "Mesina Farms premier Clarias batrachus hito hatchery, fingerlings grower, and aquaculture supplies in the Philippines.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

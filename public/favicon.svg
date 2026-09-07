@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="circleRingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#072b61" />
+      <stop offset="50%" stop-color="#0d5cb6" />
+      <stop offset="100%" stop-color="#052c66" />
+    </linearGradient>
+    <linearGradient id="fishBackGrad" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#09254d" />
+      <stop offset="40%" stop-color="#0f448c" />
+      <stop offset="75%" stop-color="#1965c4" />
+      <stop offset="100%" stop-color="#0d3b7a" />
+    </linearGradient>
+    <linearGradient id="fishBellyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#e2efff" />
+      <stop offset="100%" stop-color="#b6d5fb" />
+    </linearGradient>
+    <linearGradient id="finGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b3875" />
+      <stop offset="100%" stop-color="#1c6ecf" />
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0270dc" />
+      <stop offset="60%" stop-color="#0052ad" />
+      <stop offset="100%" stop-color="#013173" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#72cf3a" />
+      <stop offset="50%" stop-color="#3eb026" />
+      <stop offset="100%" stop-color="#1d7515" />
+    </linearGradient>
+  </defs>
+
+  <circle cx="250" cy="250" r="226" fill="none" stroke="url(#circleRingGrad)" stroke-width="20" />
+  
+  <path d="M175 305 C150 310, 110 325, 95 365 C125 390, 160 415, 185 410 C180 380, 175 350, 195 325 Z" fill="url(#finGrad)" stroke="#09254d" stroke-width="4" />
+  
+  <path d="M 98 285 C 65 210, 100 125, 190 85 C 285 45, 385 85, 415 160 C 425 185, 410 215, 365 220 C 310 225, 240 215, 175 240 C 130 260, 110 280, 98 285 Z" fill="url(#fishBackGrad)" stroke="#072247" stroke-width="4" />
+  
+  <path d="M 405 168 C 410 188, 385 208, 335 212 C 285 216, 220 205, 160 235 C 115 258, 95 285, 95 285 C 110 250, 155 220, 210 195 C 275 165, 345 155, 395 162 Z" fill="url(#fishBellyGrad)" />
+  
+  <path d="M 120 255 C 170 215, 255 180, 360 185" stroke="#47b0ff" stroke-width="5" stroke-linecap="round" fill="none" />
+  
+  <circle cx="345" cy="155" r="10" fill="#061c3b" stroke="#ffffff" stroke-width="3" />
+  <circle cx="347" cy="153" r="4" fill="#ffffff" />
+  
+  <path d="M 390 160 C 420 165, 455 185, 465 240" stroke="#092854" stroke-width="6" stroke-linecap="round" fill="none" />
+  <path d="M 380 168 C 410 180, 440 210, 445 270" stroke="#092854" stroke-width="5" stroke-linecap="round" fill="none" />
+  
+  <path d="M 160 340 C 210 335, 240 375, 290 370 C 340 365, 380 345, 425 390 C 385 435, 310 460, 220 455 C 175 450, 160 410, 160 340 Z" fill="url(#waveGrad)" />
+  <path d="M 175 375 C 220 345, 280 375, 345 350 C 385 335, 420 365, 435 385" stroke="#ffffff" stroke-width="7" stroke-linecap="round" fill="none" />
+  <path d="M 185 405 C 230 380, 290 405, 360 375 C 390 365, 410 380, 420 400" stroke="#ffffff" stroke-width="6" stroke-linecap="round" fill="none" />
+  
+  <path d="M 345 385 C 335 330, 380 250, 480 235 C 485 305, 440 395, 345 385 Z" fill="url(#leafGrad)" stroke="#11550c" stroke-width="4" />
+  <path d="M 350 380 C 395 335, 440 285, 475 240" stroke="#ffffff" stroke-width="5" stroke-linecap="round" fill="none" />
+</svg>
